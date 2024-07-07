@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sivabalan Manivasagam | Sergio Casas</title>
+    <link>http://www.cs.toronto.edu/~sergio/author/sivabalan-manivasagam/</link>
+      <atom:link href="http://www.cs.toronto.edu/~sergio/author/sivabalan-manivasagam/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sivabalan Manivasagam</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 21 Jan 2021 11:49:47 -0500</lastBuildDate>
+    <image>
+      <url>http://www.cs.toronto.edu/~sergio/images/icon_hu18b711f09b7bbc01ab410343ab4b8313_6759_512x512_fill_lanczos_center_3.png</url>
+      <title>Sivabalan Manivasagam</title>
+      <link>http://www.cs.toronto.edu/~sergio/author/sivabalan-manivasagam/</link>
+    </image>
+    
+    <item>
+      <title>AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles </title>
+      <link>http://www.cs.toronto.edu/~sergio/publication/advsim/</link>
+      <pubDate>Thu, 21 Jan 2021 11:49:47 -0500</pubDate>
+      <guid>http://www.cs.toronto.edu/~sergio/publication/advsim/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

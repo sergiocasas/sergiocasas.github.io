@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simon Suo* | Sergio Casas</title>
+    <link>http://www.cs.toronto.edu/~sergio/author/simon-suo/</link>
+      <atom:link href="http://www.cs.toronto.edu/~sergio/author/simon-suo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Simon Suo*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 14 Aug 2020 14:32:50 +0200</lastBuildDate>
+    <image>
+      <url>http://www.cs.toronto.edu/~sergio/images/icon_hu18b711f09b7bbc01ab410343ab4b8313_6759_512x512_fill_lanczos_center_3.png</url>
+      <title>Simon Suo*</title>
+      <link>http://www.cs.toronto.edu/~sergio/author/simon-suo/</link>
+    </image>
+    
+    <item>
+      <title>Implicit Latent Variable Model for Scene-Consistent Motion Forecasting</title>
+      <link>http://www.cs.toronto.edu/~sergio/publication/ilvm/</link>
+      <pubDate>Fri, 14 Aug 2020 14:32:50 +0200</pubDate>
+      <guid>http://www.cs.toronto.edu/~sergio/publication/ilvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Importance of Prior Knowledge in Precise Multimodal Prediction</title>
+      <link>http://www.cs.toronto.edu/~sergio/publication/prior/</link>
+      <pubDate>Thu, 25 Jun 2020 16:29:45 -0400</pubDate>
+      <guid>http://www.cs.toronto.edu/~sergio/publication/prior/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

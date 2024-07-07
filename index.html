@@ -1,0 +1,3738 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Sergio Casas">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://www.cs.toronto.edu/~sergio/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#dbb16f">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/~sergio/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  <link rel="alternate" href="/~sergio/index.xml" type="application/rss+xml" title="Sergio Casas">
+  
+
+  <link rel="manifest" href="/~sergio/index.webmanifest">
+  <link rel="icon" type="image/png" href="/~sergio/images/icon_hu18b711f09b7bbc01ab410343ab4b8313_6759_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/~sergio/images/icon_hu18b711f09b7bbc01ab410343ab4b8313_6759_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="http://www.cs.toronto.edu/~sergio/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Sergio Casas">
+  <meta property="og:url" content="http://www.cs.toronto.edu/~sergio/">
+  <meta property="og:title" content="Sergio Casas">
+  <meta property="og:description" content=""><meta property="og:image" content="http://www.cs.toronto.edu/~sergio/images/icon_hu18b711f09b7bbc01ab410343ab4b8313_6759_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="http://www.cs.toronto.edu/~sergio/images/icon_hu18b711f09b7bbc01ab410343ab4b8313_6759_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2021-10-22T00:00:00&#43;00:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "http://www.cs.toronto.edu/~sergio/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "http://www.cs.toronto.edu/~sergio/"
+}
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Sergio Casas</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Sergio Casas</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Sergio Casas</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~sergio/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~sergio/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~sergio/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~sergio/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-circle" src="/~sergio/author/sergio-casas/avatar_hu05f76f82e11b1a0bf2d101ca58109ac3_3058471_270x270_fill_q90_lanczos_center.jpg" alt="Sergio Casas">
+      
+
+      <div class="portrait-title">
+        <h2>Sergio Casas</h2>
+        
+
+        
+        <h3>
+          
+          <span>Senior Researcher @ Waabi</span>
+          
+        </h3>
+        
+        <h3>
+          
+          <span>Ph.D. Student @ University of Toronto</span>
+          
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        <li>
+          <a href="mailto:sergio@cs.toronto.edu" >
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://twitter.com/sergioksas" target="_blank" rel="noopener">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.linkedin.com/in/sergio-casas" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=Vgo1x9YAAAAJ&amp;hl" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/~sergio/files/cv.pdf" >
+            <i class="ai ai-cv big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>About me</h1>
+
+    <p>I’m a Senior Researcher at <a href="https://waabi.ai/" target="_blank">Waabi</a>. Here, I apply my own research to the development of self-driving vehicle technology, focusing on autonomy algorithms ranging from perception to motion planning.</p>
+<p>I am also a PhD student at the University of Toronto supervised by Professor <a href="http://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a>, and a member of the <a href="http://learning.cs.toronto.edu/" target="_blank">Machine Learning Group</a> and the <a href="https://vectorinstitute.ai/" target="_blank">Vector Institute</a>.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Machine Learning</li>
+          
+          <li>Computer Vision</li>
+          
+          <li>Robotics - Autonomous Driving</li>
+          
+          <li>Generative Models</li>
+          
+          <li>Imitation Learning</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Computer Science, 2020 - Present</p>
+              <p class="institution">University of Toronto</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MSc in Computer Science, 2018 - 2020</p>
+              <p class="institution">University of Toronto</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BSc in Computer Science, 2013 - 2017</p>
+              <p class="institution">Universitat Politècnica de Catalunya</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BSc in Industrial Tech. Engineering, 2012 - 2017</p>
+              <p class="institution">Universitat Politècnica de Catalunya</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-3 section-heading">
+    <h1>Publications</h1>
+    <p><font size=3>(* denotes equal contribution)</font></p>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    <!-- <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by 
+<a href="http://www.cs.toronto.edu/~sergio/publication/" target="_blank" rel="noopener">filtering publications</a>.
+  </div>
+</div>
+ -->
+
+
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/mp3/" >MP3: A Unified Model to Map, Perceive, Predict and Plan</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>CVPR 2021</em> <span style='color:red'><strong>(Best Paper Candidate, Oral)</strong></span> <br> Interpretable end-to-end neural motion planning without high-definition maps
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span ><strong>Sergio Casas</strong>*</span>, <span >Abbas Sadat*</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2101.06806.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/mp3/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1BcpZM8tCTA2FZF--yXOTbB61D3H2uHng/view?usp=sharing" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/lEN4lSKXPgQ" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/mp3/" >
+      <img src="/~sergio/publication/mp3/featured_hu1a0085046dfbbf116d951aa65b62985e_714453_600x0_resize_lanczos_3.png" alt="MP3: A Unified Model to Map, Perceive, Predict and Plan">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/lookout/" >LookOut: Diverse Multi-Future Prediction and Planning for Self-Driving</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>arXiv preprint 2021</em> <br> Contingency planning from diverse joint trajectory samples for all actors in the scene
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Alexander Cui*</span>, <span >Abbas Sadat*</span>, <span ><strong>Sergio Casas</strong>*</span>, <span >Renjie Liao</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2101.06547.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/lookout/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/xtM3Sn_Ibjg" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/lookout/" >
+      <img src="/~sergio/publication/lookout/featured_hu9ccd5e023be345af9f078bfaae25c033_154188_600x0_resize_lanczos_3.png" alt="LookOut: Diverse Multi-Future Prediction and Planning for Self-Driving">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/trafficsim/" >TrafficSim: Learning to Simulate Realistic Multi-Agent Behaviors </a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>CVPR 2021</em> <br> Realistic long-term vehicle behavior simulation learned from imitation and common sense
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Simon Suo</span>, <span >Sebastian Regalado</span>, <span ><strong>Sergio Casas</strong></span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2101.06557.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/trafficsim/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/BZTy44NfDiM" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/trafficsim/" >
+      <img src="/~sergio/publication/trafficsim/featured_hu67fbc3ef9235caa143786d284e108c78_176551_600x0_resize_lanczos_3.png" alt="TrafficSim: Learning to Simulate Realistic Multi-Agent Behaviors ">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/al_partial_labels/" >Just Label What You Need: Fine-Grained Active Selection for Perception and Prediction through Partially Labeled Scenes</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>arXiv preprint 2021</em> <br> Cost-aware active learning allows for fine-grained selection of examples through partially labeled scenes
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Sean Segal</span>, <span >Nishanth Kumar</span>, <span ><strong>Sergio Casas</strong></span>, <span >Wenyuan Zeng</span>, <span >Mengye Ren</span>, <span >Jingkang Wang</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2104.03956.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/al_partial_labels/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/al_partial_labels/" >
+      <img src="/~sergio/publication/al_partial_labels/featured_huf2c5ae7e7f0fabfb513835de254ac1ef_307411_600x0_resize_lanczos_3.png" alt="Just Label What You Need: Fine-Grained Active Selection for Perception and Prediction through Partially Labeled Scenes">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/advsim/" >AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles </a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>CVPR 2021</em> <br> Critical scenario generation by modifying the actors&rsquo; trajectories in a physically plausible manner and updating the LiDAR sensor data to create realistic observations of the perturbed world
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Jingkang Wang</span>, <span >Ava Pun</span>, <span >James Tu</span>, <span >Sivabalan Manivasagam</span>, <span >Abbas Sadat</span>, <span ><strong>Sergio Casas</strong></span>, <span >Mengye Ren</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2101.06549.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/advsim/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/PQR_6CLNczI" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/advsim/" >
+      <img src="/~sergio/publication/advsim/featured_hub80cf0c61eaed009764ad50ab69f3102_445725_600x0_resize_lanczos_3.png" alt="AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles ">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/lp3/" >Deep Multi-Task Learning for Joint Localization, Perception, and Prediction</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>CVPR 2021</em> <br> Efficient end-to-end joint localization, perception, prediction able to correct localization errors
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >John Phillips</span>, <span >Julieta Martinez</span>, <span >Ioan Andrei Bârsan</span>, <span ><strong>Sergio Casas</strong></span>, <span >Abbas Sadat</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2101.06720.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/lp3/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/Ml0dxluLaU8" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/lp3/" >
+      <img src="/~sergio/publication/lp3/featured_hu44c3eaa38d9640ed39207b7c4f936f57_649563_600x0_resize_lanczos_3.png" alt="Deep Multi-Task Learning for Joint Localization, Perception, and Prediction">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/dataset/" >Diverse Complexity Measures for Dataset Curation in Self-driving</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>IROS 2021</em> <br> Model-agnostic approach to dataset curation for autonomy tasks
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Abbas Sadat</span>, <span >Sean Segal</span>, <span ><strong>Sergio Casas</strong></span>, <span >James Tu</span>, <span >Bin Yang</span>, <span >Raquel Urtasun</span>, <span >Ersin Yumer</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2101.06554.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/dataset/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/7-Qco6MkQgE" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/dataset/" >
+      <img src="/~sergio/publication/dataset/featured_hu4cd033e93c38f3794590a6b9b80a4b4e_347684_600x0_resize_lanczos_3.png" alt="Diverse Complexity Measures for Dataset Curation in Self-driving">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/pedpnp/" >Safety-Oriented Pedestrian Motion and Scene Occupancy Forecasting</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>IROS 2021</em> <br> Hybrid instance-based and instance-free approach to pedestrian behavior prediction
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Katie Luo*</span>, <span ><strong>Sergio Casas</strong>*</span>, <span >Renjie Liao</span>, <span >Xinchen Yan</span>, <span >Yuwen Xiong</span>, <span >Wenyuan Zeng</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2101.02385.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/pedpnp/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/VW1LBoaXIkU" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/pedpnp/" >
+      <img src="/~sergio/publication/pedpnp/featured_hu5c5bac1fb1ca07d54b5ac8d1f02fc87e_102590_600x0_resize_lanczos_3.png" alt="Safety-Oriented Pedestrian Motion and Scene Occupancy Forecasting">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/strobe/" >Strobe: Streaming Object Detection from LiDAR Packets</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>CoRL 2020</em> <span style='color:red'><strong>(Spotlight)</strong></span><br> Existing LiDAR perception systems wait 100ms just to build a sweep. StrObe instead does streaming detection from LiDAR packets and achieve an end-to-end latency of 21ms
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Davi Frossard</span>, <span >Simon Suo</span>, <span ><strong>Sergio Casas</strong></span>, <span >James Tu</span>, <span >Rui Hu</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2011.06425.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/strobe/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/18uY9P6Y9Ys" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/strobe/" >
+      <img src="/~sergio/publication/strobe/featured_hue98b2674b124b99e0b488cd05ac55d4e_128228_600x0_resize_lanczos_3.png" alt="Strobe: Streaming Object Detection from LiDAR Packets">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/ilvm/" >Implicit Latent Variable Model for Scene-Consistent Motion Forecasting</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>ECCV 2020</em> <br> ILVM characterizes the joint distribution over multiple actors&rsquo; future trajectories
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span ><strong>Sergio Casas</strong>*</span>, <span >Cole Gulino*</span>, <span >Simon Suo*</span>, <span >Katie Luo</span>, <span >Renjie Liao</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2007.12036.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/ilvm/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/dBOVZ2Tulp4" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/ilvm/" >
+      <img src="/~sergio/publication/ilvm/featured_hu5c8637242a5d79c8abb3eb749750bfb1_75142_600x0_resize_lanczos_3.png" alt="Implicit Latent Variable Model for Scene-Consistent Motion Forecasting">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/p3/" >Perceive, Predict, and Plan: Safe Motion Planning Through Interpretable Semantic Representations</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>ECCV 2020</em> <br> End-to-end neural motion planner based on interpretable semantic scene occupancies
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Abbas Sadat*</span>, <span ><strong>Sergio Casas</strong>*</span>, <span >Mengye Ren</span>, <span >Xinyu Wu</span>, <span >Pranaab Dhawan</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2008.05930.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/p3/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/00nMbw0302A" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/p3/" >
+      <img src="/~sergio/publication/p3/featured_hua2e08ca7cb5ac1e0d1016b672b9c0aea_415694_600x0_resize_lanczos_3.png" alt="Perceive, Predict, and Plan: Safe Motion Planning Through Interpretable Semantic Representations">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/radarnet/" >RadarNet: Exploiting Radar for Robust Perception of Dynamic Objects</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>ECCV 2020</em> <br> Multi-level fusion of LiDAR &amp; Radar for object detection and velocity estimation
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Bin Yang</span>, <span >Runsheng Guo</span>, <span >Ming Liang</span>, <span ><strong>Sergio Casas</strong></span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2007.14366.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/radarnet/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/radarnet/" >
+      <img src="/~sergio/publication/radarnet/featured_hua0547468220321ba162b11e5d979f1bc_891817_600x0_resize_lanczos_3.png" alt="RadarNet: Exploiting Radar for Robust Perception of Dynamic Objects">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/prior/" >The Importance of Prior Knowledge in Precise Multimodal Prediction</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>IROS 2020</em> <span style='color:red'><strong>(Oral)</strong></span> <br> Incorporate non-differentiable prior knowledge for behavior forecasting
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span ><strong>Sergio Casas</strong>*</span>, <span >Cole Gulino*</span>, <span >Simon Suo*</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2006.02636.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/prior/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/Vtj08GQaB1Q" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/prior/" >
+      <img src="/~sergio/publication/prior/featured_hu03affa5d72510b29416511ff20a31b66_151006_600x0_resize_lanczos_3.png" alt="The Importance of Prior Knowledge in Precise Multimodal Prediction">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/pnpnet/" >PnPNet: End-to-End Perception and Prediction with Tracking in the Loop</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>CVPR 2020</em> <br> Tracking in the loop in joint perception and prediction
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Ming Liang*</span>, <span >Bin Yang*</span>, <span >Wenyuan Zeng</span>, <span >Yun Chen</span>, <span >Rui Hu</span>, <span ><strong>Sergio Casas</strong></span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Liang_PnPNet_End-to-End_Perception_and_Prediction_With_Tracking_in_the_Loop_CVPR_2020_paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/pnpnet/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/pnpnet/" >
+      <img src="/~sergio/publication/pnpnet/featured_hu5b8c0b1baca62819a60a00d7a80f52d4_608292_600x0_resize_lanczos_3.png" alt="PnPNet: End-to-End Perception and Prediction with Tracking in the Loop">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/spagnn/" >Spatially-Aware Graph Neural Networks for Relational Behavior Forecasting from Sensor Data</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>ICRA 2020</em> <br> Relational reasoning for multi-agent behavior prediction from sensors
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span ><strong>Sergio Casas</strong></span>, <span >Cole Gulino</span>, <span >Renjie Liao</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1910.08233.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/spagnn/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/zdk66stOeSk" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/spagnn/" >
+      <img src="/~sergio/publication/spagnn/featured_hu69f8976def039d528efb50bdcbf493f9_667804_600x0_resize_lanczos_3.png" alt="Spatially-Aware Graph Neural Networks for Relational Behavior Forecasting from Sensor Data">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/drf/" >Discrete Residual Flow for Probabilistic Pedestrian Behavior Prediction</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>CoRL 2019</em> <span style='color:red'><strong>(Spotlight)</strong></span> <br> Long-term pedestrian forecasting with occupancy grid maps
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Ajay Jain*</span>, <span ><strong>Sergio Casas</strong>*</span>, <span >Renjie Liao*</span>, <span >Yuwen Xiong*</span>, <span >Song Feng</span>, <span >Sean Segal</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://proceedings.mlr.press/v100/jain20a/jain20a.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/drf/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/OnDX_szUV5g" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/drf/" >
+      <img src="/~sergio/publication/drf/featured_hu2c79045bff76e230f2f2082e9bcc9210_145821_600x0_resize_lanczos_3.png" alt="Discrete Residual Flow for Probabilistic Pedestrian Behavior Prediction">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/nmp/" >End-to-end Interpretable Neural Motion Planner</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>CVPR 2019</em> <span style='color:red'><strong>(Oral)</strong></span> <br> Neural motion planner from LiDAR and HD maps
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Wenyuan Zeng*</span>, <span >Wenjie Luo*</span>, <span >Simon Suo</span>, <span >Abbas Sadat</span>, <span >Bin Yang</span>, <span ><strong>Sergio Casas</strong></span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zeng_End-To-End_Interpretable_Neural_Motion_Planner_CVPR_2019_paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/nmp/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/CBfTYO3e1b0" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/nmp/" >
+      <img src="/~sergio/publication/nmp/featured_huec223d890b3a75da181f5bb3be036021_1590936_600x0_resize_lanczos_3.png" alt="End-to-end Interpretable Neural Motion Planner">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/publication/intentnet/" >Intentnet:  Learning to Predict Intention from Raw Sensor Data</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <em>CoRL 2018</em> <span style='color:red'><strong>(Spotlight)</strong></span> <br> Joint perception and prediction from LiDAR point clouds and HD maps
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span ><strong>Sergio Casas</strong></span>, <span >Wenjie Luo</span>, <span >Raquel Urtasun</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://proceedings.mlr.press/v87/casas18a/casas18a.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/~sergio/publication/intentnet/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/EfPGC91ykBw" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~sergio/publication/intentnet/" >
+      <img src="/~sergio/publication/intentnet/featured_hu0a1d481caa13d4bcd2bcd9af9d2d36a6_673566_600x0_resize_lanczos_3.png" alt="Intentnet:  Learning to Predict Intention from Raw Sensor Data">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="experience" class="home-section wg-experience   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-3 section-heading">
+    <h1>Experience</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Senior Researcher</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://waabi.ai" target="_blank" rel="noopener">Waabi</a></h4>
+            <div class="text-muted exp-meta">
+              Mar 2021 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>Toronto, Canada</span>
+              
+            </div>
+            <div class="card-text">We are building the next generation of self-driving technology. Stay tuned!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Scientist</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://aurora.tech/" target="_blank" rel="noopener">Uber Advanced Technologies Group (acquired by Aurora)</a></h4>
+            <div class="text-muted exp-meta">
+              Oct 2017 –
+              
+                Feb 2021
+              
+              
+                <span class="middot-divider"></span>
+                <span>Toronto, Canada</span>
+              
+            </div>
+            <div class="card-text">Research in Autonomous Driving: Perception, Prediction and Motion Planning systems.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Assistant</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.utoronto.ca/" target="_blank" rel="noopener">University of Toronto</a></h4>
+            <div class="text-muted exp-meta">
+              Feb 2017 –
+              
+                Jul 2017
+              
+              
+                <span class="middot-divider"></span>
+                <span>Toronto, Canada</span>
+              
+            </div>
+            <div class="card-text">Research in spatio-temporal reasoning for sports analytics. Worked on automatizing the NBA Play-by-Play reports. Supervised by Prof. Urtasun.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Data Analytics Consultant</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="http://arcvi.io/" target="_blank" rel="noopener">Arcvi Big Data Agency</a></h4>
+            <div class="text-muted exp-meta">
+              Jun 2016 –
+              
+                Jan 2017
+              
+              
+                <span class="middot-divider"></span>
+                <span>Barcelona, Spain</span>
+              
+            </div>
+            <div class="card-text">Creation of strategy solutions using simple Machine Learning techniques. Advised multiple retail, insurance and credit companies.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Software Engineering Intern</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.psycle.com/" target="_blank" rel="noopener">Psycle Interactive Ltd.</a></h4>
+            <div class="text-muted exp-meta">
+              Jun 2015 –
+              
+                Aug 2015
+              
+              
+                <span class="middot-divider"></span>
+                <span>Whitchurch, United Kingdom</span>
+              
+            </div>
+            <div class="card-text">Mobile application development and UI/UX design. Research project on document topic classification and information retrieval.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-3 section-heading">
+    <h1>Talks</h1>
+    <p><font size=3>(excluding paper presentations)</font></p>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/talk/pnp_epfl/" >Joint Perception and Prediction (PnP)</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Talk at 
+<a href="https://www.epfl.ch/labs/vita/reading-groups/" target="_blank" rel="noopener">EPFL VITA Reading Group</a> covering my research on PnP from IntentNet to ILVM
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Oct 22, 2021
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Virtual</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=A-B5f9gLDh0&amp;ab_channel=ComputerVisionSeminar" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~sergio/talk/cvpr20_prediction_tutorial/" >Prediction Tutorial</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Prediction part of the tutorial 
+<a href="http://www.allaboutselfdriving.com/" target="_blank" rel="noopener">All about self-driving</a> at 
+<a href="http://cvpr2020.thecvf.com/" target="_blank" rel="noopener">CVPR20</a>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Jun 14, 2021
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Virtual</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/F5Jt6YxPZ9M?list=PLflOOOY6Z-LrjwpEUx6hdmkCwYDXWmi0e" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/~sergio/js/academic.min.cd45a9c0bbdd3dfb1c126917c601c9f2.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

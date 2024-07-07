@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wenjie Luo* | Sergio Casas</title>
+    <link>http://www.cs.toronto.edu/~sergio/author/wenjie-luo/</link>
+      <atom:link href="http://www.cs.toronto.edu/~sergio/author/wenjie-luo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wenjie Luo*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2020 13:55:45 -0400</lastBuildDate>
+    <image>
+      <url>http://www.cs.toronto.edu/~sergio/images/icon_hu18b711f09b7bbc01ab410343ab4b8313_6759_512x512_fill_lanczos_center_3.png</url>
+      <title>Wenjie Luo*</title>
+      <link>http://www.cs.toronto.edu/~sergio/author/wenjie-luo/</link>
+    </image>
+    
+    <item>
+      <title>End-to-end Interpretable Neural Motion Planner</title>
+      <link>http://www.cs.toronto.edu/~sergio/publication/nmp/</link>
+      <pubDate>Sun, 21 Jun 2020 13:55:45 -0400</pubDate>
+      <guid>http://www.cs.toronto.edu/~sergio/publication/nmp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
