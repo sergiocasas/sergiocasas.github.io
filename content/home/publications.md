@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 39  # Order that this section will appear.
 
 title = "Publications"
-subtitle = "<font size=3>(* denotes equal contribution)</font> "
+subtitle = "<small>For an up-to-date list of publications visit my [Google Scholar](https://scholar.google.com/citations?user=Vgo1x9YAAAAJ&hl=en&oi=ao) <br><br> (* denotes equal contribution)</small>"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
