@@ -1,2 +1,3 @@
 - Run `hugo server` to test locally
 - Push to `main` to deploy website
+- See [deployed website]([url](https://sergiocasas.github.io/))
