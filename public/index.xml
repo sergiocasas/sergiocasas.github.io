@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sergio Casas</title>
+    <link>http://localhost:1313/~sergio/</link>
+      <atom:link href="http://localhost:1313/~sergio/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sergio Casas</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/~sergio/images/icon_hu18b711f09b7bbc01ab410343ab4b8313_6759_512x512_fill_lanczos_center_3.png</url>
+      <title>Sergio Casas</title>
+      <link>http://localhost:1313/~sergio/</link>
+    </image>
+    
+    <item>
+      <title>Joint Perception and Prediction (PnP)</title>
+      <link>http://localhost:1313/~sergio/talk/pnp_epfl/</link>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/~sergio/talk/pnp_epfl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prediction Tutorial</title>
+      <link>http://localhost:1313/~sergio/talk/cvpr20_prediction_tutorial/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/~sergio/talk/cvpr20_prediction_tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MP3: A Unified Model to Map, Perceive, Predict and Plan</title>
+      <link>http://localhost:1313/~sergio/publication/mp3/</link>
+      <pubDate>Thu, 21 Jan 2021 15:52:39 -0500</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/mp3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LookOut: Diverse Multi-Future Prediction and Planning for Self-Driving</title>
+      <link>http://localhost:1313/~sergio/publication/lookout/</link>
+      <pubDate>Thu, 21 Jan 2021 15:02:57 -0500</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/lookout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TrafficSim: Learning to Simulate Realistic Multi-Agent Behaviors </title>
+      <link>http://localhost:1313/~sergio/publication/trafficsim/</link>
+      <pubDate>Thu, 21 Jan 2021 14:03:04 -0500</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/trafficsim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Just Label What You Need: Fine-Grained Active Selection for Perception and Prediction through Partially Labeled Scenes</title>
+      <link>http://localhost:1313/~sergio/publication/al_partial_labels/</link>
+      <pubDate>Thu, 21 Jan 2021 14:02:04 -0500</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/al_partial_labels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles </title>
+      <link>http://localhost:1313/~sergio/publication/advsim/</link>
+      <pubDate>Thu, 21 Jan 2021 11:49:47 -0500</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/advsim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Multi-Task Learning for Joint Localization, Perception, and Prediction</title>
+      <link>http://localhost:1313/~sergio/publication/lp3/</link>
+      <pubDate>Thu, 21 Jan 2021 10:49:58 -0500</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/lp3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diverse Complexity Measures for Dataset Curation in Self-driving</title>
+      <link>http://localhost:1313/~sergio/publication/dataset/</link>
+      <pubDate>Thu, 21 Jan 2021 09:49:52 -0500</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safety-Oriented Pedestrian Motion and Scene Occupancy Forecasting</title>
+      <link>http://localhost:1313/~sergio/publication/pedpnp/</link>
+      <pubDate>Thu, 21 Jan 2021 08:14:09 -0500</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/pedpnp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strobe: Streaming Object Detection from LiDAR Packets</title>
+      <link>http://localhost:1313/~sergio/publication/strobe/</link>
+      <pubDate>Sun, 27 Dec 2020 11:58:27 -0500</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/strobe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implicit Latent Variable Model for Scene-Consistent Motion Forecasting</title>
+      <link>http://localhost:1313/~sergio/publication/ilvm/</link>
+      <pubDate>Fri, 14 Aug 2020 14:32:50 +0200</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/ilvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceive, Predict, and Plan: Safe Motion Planning Through Interpretable Semantic Representations</title>
+      <link>http://localhost:1313/~sergio/publication/p3/</link>
+      <pubDate>Fri, 14 Aug 2020 14:22:10 +0200</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/p3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RadarNet: Exploiting Radar for Robust Perception of Dynamic Objects</title>
+      <link>http://localhost:1313/~sergio/publication/radarnet/</link>
+      <pubDate>Thu, 13 Aug 2020 14:32:54 +0200</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/radarnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Importance of Prior Knowledge in Precise Multimodal Prediction</title>
+      <link>http://localhost:1313/~sergio/publication/prior/</link>
+      <pubDate>Thu, 25 Jun 2020 16:29:45 -0400</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/prior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PnPNet: End-to-End Perception and Prediction with Tracking in the Loop</title>
+      <link>http://localhost:1313/~sergio/publication/pnpnet/</link>
+      <pubDate>Wed, 24 Jun 2020 16:29:42 -0400</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/pnpnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatially-Aware Graph Neural Networks for Relational Behavior Forecasting from Sensor Data</title>
+      <link>http://localhost:1313/~sergio/publication/spagnn/</link>
+      <pubDate>Mon, 22 Jun 2020 23:16:19 -0400</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/spagnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discrete Residual Flow for Probabilistic Pedestrian Behavior Prediction</title>
+      <link>http://localhost:1313/~sergio/publication/drf/</link>
+      <pubDate>Mon, 22 Jun 2020 16:10:07 -0400</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/drf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-end Interpretable Neural Motion Planner</title>
+      <link>http://localhost:1313/~sergio/publication/nmp/</link>
+      <pubDate>Sun, 21 Jun 2020 13:55:45 -0400</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/nmp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intentnet:  Learning to Predict Intention from Raw Sensor Data</title>
+      <link>http://localhost:1313/~sergio/publication/intentnet/</link>
+      <pubDate>Sun, 14 Jun 2020 20:44:29 -0400</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/intentnet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexander Cui* | Sergio Casas</title>
+    <link>http://localhost:1313/~sergio/author/alexander-cui/</link>
+      <atom:link href="http://localhost:1313/~sergio/author/alexander-cui/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexander Cui*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 21 Jan 2021 15:02:57 -0500</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/~sergio/images/icon_hu18b711f09b7bbc01ab410343ab4b8313_6759_512x512_fill_lanczos_center_3.png</url>
+      <title>Alexander Cui*</title>
+      <link>http://localhost:1313/~sergio/author/alexander-cui/</link>
+    </image>
+    
+    <item>
+      <title>LookOut: Diverse Multi-Future Prediction and Planning for Self-Driving</title>
+      <link>http://localhost:1313/~sergio/publication/lookout/</link>
+      <pubDate>Thu, 21 Jan 2021 15:02:57 -0500</pubDate>
+      <guid>http://localhost:1313/~sergio/publication/lookout/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

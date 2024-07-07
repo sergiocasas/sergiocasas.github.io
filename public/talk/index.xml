@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Sergio Casas</title>
+    <link>http://localhost:1313/~sergio/talk/</link>
+      <atom:link href="http://localhost:1313/~sergio/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/~sergio/images/icon_hu18b711f09b7bbc01ab410343ab4b8313_6759_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://localhost:1313/~sergio/talk/</link>
+    </image>
+    
+    <item>
+      <title>Joint Perception and Prediction (PnP)</title>
+      <link>http://localhost:1313/~sergio/talk/pnp_epfl/</link>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/~sergio/talk/pnp_epfl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prediction Tutorial</title>
+      <link>http://localhost:1313/~sergio/talk/cvpr20_prediction_tutorial/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/~sergio/talk/cvpr20_prediction_tutorial/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

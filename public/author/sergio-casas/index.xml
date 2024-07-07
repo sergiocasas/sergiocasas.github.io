@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sergio Casas</title>
+    <link>http://localhost:1313/~sergio/author/sergio-casas/</link>
+      <atom:link href="http://localhost:1313/~sergio/author/sergio-casas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sergio Casas</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1313/~sergio/images/icon_hu18b711f09b7bbc01ab410343ab4b8313_6759_512x512_fill_lanczos_center_3.png</url>
+      <title>Sergio Casas</title>
+      <link>http://localhost:1313/~sergio/author/sergio-casas/</link>
+    </image>
+    
+    <item>
+      <title>Sergio Casas</title>
+      <link>http://localhost:1313/~sergio/author/sergio-casas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/~sergio/author/sergio-casas/</guid>
+      <description>&lt;p&gt;I’m a Senior Researcher at &lt;a href=&#34;https://waabi.ai/&#34; target=&#34;_blank&#34;&gt;Waabi&lt;/a&gt;. Here, I apply my own research to the development of self-driving vehicle technology, focusing on autonomy algorithms ranging from perception to motion planning.&lt;/p&gt;
+&lt;p&gt;I am also a PhD student at the University of Toronto supervised by Professor &lt;a href=&#34;http://www.cs.toronto.edu/~urtasun/&#34; target=&#34;_blank&#34;&gt;Raquel Urtasun&lt;/a&gt;, and a member of the &lt;a href=&#34;http://learning.cs.toronto.edu/&#34; target=&#34;_blank&#34;&gt;Machine Learning Group&lt;/a&gt; and the &lt;a href=&#34;https://vectorinstitute.ai/&#34; target=&#34;_blank&#34;&gt;Vector Institute&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
