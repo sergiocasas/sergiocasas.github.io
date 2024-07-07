@@ -1,1 +1,2 @@
-Run `hugo server` to test locally
+- Run `hugo server` to test locally
+- Push to `main` to deploy website
