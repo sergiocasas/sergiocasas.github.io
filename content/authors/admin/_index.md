@@ -87,5 +87,5 @@ user_groups:
 - Visitors
 ---
 
-I’m a Staff Researcher at <a href="https://waabi.ai/" target="_blank">Waabi</a>, where I lead our Perception and Behavior Reasoning team.
+I am a Staff Researcher and TLM at <a href="https://waabi.ai/" target="_blank">Waabi</a>, where I lead our Perception and Behavior Reasoning team.
 I am also a PhD candidate at the University of Toronto supervised by Professor <a href="http://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a>. My research lies at the intersection of computer vision, machine learning, and robotics.
