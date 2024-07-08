@@ -7,8 +7,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 39  # Order that this section will appear.
 
-title = "Publications"
-subtitle = "<small>For an up-to-date list of publications visit my [Google Scholar](https://scholar.google.com/citations?user=Vgo1x9YAAAAJ&hl=en&oi=ao) <br><br> (* denotes equal contribution)</small>"
+title = "Selected Publications"
+subtitle = "<small>For a complete and up-to-date list of publications visit my [Google Scholar](https://scholar.google.com/citations?user=Vgo1x9YAAAAJ&hl=en&oi=ao) <br><br> (* denotes equal contribution)</small>"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -29,7 +29,7 @@ subtitle = "<small>For an up-to-date list of publications visit my [Google Schol
     category = ""
     publication_type = ""
     author = ""
-    exclude_featured = false
+    featured_only = true
   
 [design]
   # Toggle between the various page layout types.

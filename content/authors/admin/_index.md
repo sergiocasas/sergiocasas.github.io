@@ -14,15 +14,16 @@ role: ""
 
 # Organizations/Affiliations
 organizations:
-- name: Senior Researcher @ Waabi
+- name: Staff Researcher @ Waabi
   url: ""
-- name: Ph.D. Student @ University of Toronto
+- name: Ph.D. Candidate @ UofT
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio:
 
 interests:
+- Artificial Intelligence
 - Machine Learning
 - Computer Vision
 - Robotics
@@ -52,7 +53,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:sergio@cs.toronto.edu'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:sergiocasasromero@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/sergioksas
@@ -86,6 +87,5 @@ user_groups:
 - Visitors
 ---
 
-I’m a Senior Researcher at <a href="https://waabi.ai/" target="_blank">Waabi</a>. Here, I apply my own research to the development of self-driving vehicle technology, focusing on autonomy algorithms ranging from perception to motion planning.
-
-I am also a PhD student at the University of Toronto supervised by Professor <a href="http://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a>, and a member of the <a href="http://learning.cs.toronto.edu/" target="_blank">Machine Learning Group</a> and the <a href="https://vectorinstitute.ai/" target="_blank">Vector Institute</a>.
+I’m a Staff Researcher at <a href="https://waabi.ai/" target="_blank">Waabi</a>, where I lead our Perception and Behavior Reasoning team.
+I am also a PhD candidate at the University of Toronto supervised by Professor <a href="http://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a>. My research lies at the intersection of computer vision, machine learning, and robotics.

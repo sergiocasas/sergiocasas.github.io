@@ -23,12 +23,12 @@ abstract: "Self-driving vehicles need to anticipate a diverse set of future traf
 "
 
 # Summary. An optional shortened abstract.
-summary: "_arXiv preprint 2021_ <br>
+summary: "_ICCV 2021_ <br>
 Contingency planning from diverse joint trajectory samples for all actors in the scene"
 
 tags: []
 categories: []
-featured: false
+featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.

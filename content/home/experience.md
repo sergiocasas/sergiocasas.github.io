@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Senior Researcher"
+  title = "Staff Researcher"
   company = "Waabi"
   company_url = "https://waabi.ai"
   location = "Toronto, Canada"

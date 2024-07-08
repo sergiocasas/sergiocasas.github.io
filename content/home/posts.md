@@ -29,7 +29,7 @@ subtitle = ""
     category = ""
     publication_type = ""
     author = ""
-    exclude_featured = false
+    featured_only = false
   
 [design]
   # Toggle between the various page layout types.

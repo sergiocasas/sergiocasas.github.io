@@ -27,7 +27,7 @@ Joint perception and prediction from LiDAR point clouds and HD maps"
 
 tags: []
 categories: []
-featured: false
+featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
