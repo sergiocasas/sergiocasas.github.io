@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "UnO: Unsupervised Occupancy Fields for Perception and Forecasting"
-authors: [Ben Agro*, Quinlan Sykora, __Sergio Casas__*, Thomas Gilles, Raquel Urtasun]
+authors: [Ben Agro*, Quinlan Sykora*, __Sergio Casas__*, Thomas Gilles, Raquel Urtasun]
 date: 2024-01-21T15:52:39-05:00
 doi: ""
 
