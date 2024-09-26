@@ -14,9 +14,9 @@ role: ""
 
 # Organizations/Affiliations
 organizations:
-- name: Staff Researcher @ Waabi
+- name: Sr Staff TLM @ Waabi
   url: ""
-- name: Ph.D. Candidate @ UofT
+- name: Ph.D. @ UofT
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -35,7 +35,7 @@ education:
   courses:
   - course: PhD in Computer Science
     institution: University of Toronto
-    year: 2020 - Present
+    year: 2020 - 2024
   - course: MSc in Computer Science
     institution: University of Toronto
     year: 2018 - 2020
@@ -87,5 +87,5 @@ user_groups:
 - Visitors
 ---
 
-I am a Staff Researcher and TLM at <a href="https://waabi.ai/" target="_blank">Waabi</a>, where I lead our Perception and Behavior Reasoning team.
-I am also a PhD candidate at the University of Toronto supervised by Professor <a href="http://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a>. My research lies at the intersection of computer vision, machine learning, and robotics.
+I am a Sr Staff Tech Lead Manager at <a href="https://waabi.ai/" target="_blank">Waabi</a>, where I lead our Perception and Behavior Reasoning team.
+I completed my PhD at the University of Toronto supervised by Professor <a href="http://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a>. My research lies at the intersection of computer vision, machine learning, and robotics.
