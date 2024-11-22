@@ -88,4 +88,4 @@ user_groups:
 ---
 
 I am a Sr Staff Tech Lead Manager at <a href="https://waabi.ai/" target="_blank">Waabi</a>, where I lead our Perception and Behavior Reasoning team.
-I completed my PhD at the University of Toronto supervised by Professor <a href="http://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a>. My research lies at the intersection of computer vision, machine learning, and robotics.
+I completed my PhD at the University of Toronto supervised by Professor <a href="http://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a>. You can download my thesis  <a href="https://tspace.library.utoronto.ca/bitstream/1807/140889/1/Casas_Romero_Sergio_202411_PhD_thesis.pdf" target="_blank">here</a>. My research lies at the intersection of computer vision, machine learning, and robotics.
