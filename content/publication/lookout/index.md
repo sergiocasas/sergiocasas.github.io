@@ -28,7 +28,7 @@ Contingency planning from diverse joint trajectory samples for all actors in the
 
 tags: []
 categories: []
-featured: true
+featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
