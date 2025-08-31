@@ -14,10 +14,10 @@ role: ""
 
 # Organizations/Affiliations
 organizations:
-- name: Sr Staff TLM @ Waymo Research
+- name: Sr Staff Researcher and TLM
   url: ""
-- name: Ph.D. @ UofT
-  url: ""
+- name: Waymo
+  url: "https://waymo.com/"
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -26,10 +26,9 @@ interests:
 - Artificial Intelligence
 - Machine Learning
 - Computer Vision
-- Robotics
-  - Autonomous Driving
 - Generative Models
-- Imitation Learning
+- Autonomous Driving
+- Robotics
 
 education:
   courses:
@@ -87,4 +86,4 @@ user_groups:
 - Visitors
 ---
 
-I am a Sr Staff Researcher and Tech Lead Manager at <a href="https://waymo.com/" target="_blank">Waymo Research</a> working on Behavior Modeling for Self-Driving Cars. Previously, I led the Perception and Behavior Reasoning team at <a href="https://waabi.ai/" target="_blank">Waabi</a>, and before that I was a Research Scientist at <a href="https://investor.uber.com/news-events/news/press-release-details/2020/Aurora-is-acquiring-Ubers-self-driving-unit-Advanced-Technologies-Group-accelerating-development-of-the-Aurora-Driver/default.aspx" target="_blank">Uber ATG</a>. I completed my PhD at the <a href="https://web.cs.toronto.edu/" target="_blank">University of Toronto CS department</a>, supervised by Professor <a href="http://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a> (thesis <a href="https://tspace.library.utoronto.ca/bitstream/1807/140889/1/Casas_Romero_Sergio_202411_PhD_thesis.pdf" target="_blank">here</a>). I am excited about bringing AI to the physical world.
+I am a researcher and engineering leader driven by the mission of bringing AI from the lab into the real world. I am currently a Sr Staff Researcher and Tech Lead Manager at <a href="https://waymo.com/" target="_blank">Waymo</a>, developing Foundation Models for Self-Driving Cars. My work builds on a deep background in autonomous technology, including my time leading the Perception and Behavior Reasoning team at <a href="https://waabi.ai/" target="_blank">Waabi</a>, my role as a Research Scientist at <a href="https://investor.uber.com/news-events/news/press-release-details/2020/Aurora-is-acquiring-Ubers-self-driving-unit-Advanced-Technologies-Group-accelerating-development-of-the-Aurora-Driver/default.aspx" target="_blank">Uber ATG</a>, and my PhD in <a href="https://tspace.library.utoronto.ca/bitstream/1807/140889/1/Casas_Romero_Sergio_202411_PhD_thesis.pdf" target="_blank">end-to-end autonomy</a> from the <a href="https://web.cs.toronto.edu/" target="_blank">University of Toronto</a>, where I was advised by <a href="http://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a>.

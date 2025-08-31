@@ -13,7 +13,7 @@ publishDate: 2025-07-21T15:52:39-05:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["4"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
@@ -22,8 +22,8 @@ publication_short: ""
 abstract: "We study the empirical scaling laws of a family of encoder-decoder autoregressive transformer models on the task of joint motion forecasting and planning in the autonomous driving domain. Using a 500 thousand hours driving dataset, we demonstrate that, similar to language modeling, model performance improves as a power-law function of the total compute budget, and we observe a strong correlation between model training loss and model evaluation metrics. Most interestingly, closed-loop metrics also improve with scaling, which has important implications for the suitability of open-loop metrics for model development and hill climbing. We also study the optimal scaling of the number of transformer parameters and the training data size for a training compute-optimal model. We find that as the training compute budget grows, optimal scaling requires increasing the model size 1.5x as fast as the dataset size. We also study inference-time compute scaling, where we observe that sampling and clustering the output of smaller models makes them competitive with larger models, up to a crossover point beyond which a larger models becomes more inference-compute efficient. Overall, our experimental results demonstrate that optimizing the training and inference-time scaling properties of motion forecasting and planning models is a key lever for improving their performance to address a wide variety of driving scenarios. Finally, we briefly study the utility of training on general logged driving data of other agents to improve the performance of the ego-agent, an important research area to address the scarcity of robotics data for large capacity models training."
 
 # Summary. An optional shortened abstract.
-summary: "_Technical Report_ <br>
-Studying how Motion Forecasting and Planning models scale in open-loop and closed-loop"
+summary: "_Technical Report_ 2025 <br>
+Studying how motion forecasting and planning models scale with compute and data, both in open-loop and closed-loop"
 
 tags: []
 categories: []
