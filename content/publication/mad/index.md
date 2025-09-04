@@ -44,7 +44,7 @@ url_poster: https://www.datocms-assets.com/163962/1756441789-mad_poster.pdf
 url_project: https://waabi.ai/research/mad
 url_slides:
 url_source:
-url_video:
+url_video: https://www.youtube.com/watch?v=dcDAe5epepY&t=3s&ab_channel=Waabi
 # url_video: https://youtu.be/8LPrYcWZaRc
 
 # Featured image
