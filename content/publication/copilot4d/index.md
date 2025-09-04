@@ -41,7 +41,7 @@ url_pdf: https://arxiv.org/abs/2311.01017
 url_code:
 url_dataset:
 url_poster:
-url_project: https://waabi.ai/copilot-4d/
+url_project: https://waabi.ai/research/copilot-4d/
 url_slides:
 url_source:
 url_video:

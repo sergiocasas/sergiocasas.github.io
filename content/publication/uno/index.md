@@ -41,10 +41,10 @@ url_pdf: https://arxiv.org/pdf/2406.08691
 url_code:
 url_dataset:
 url_poster:
-url_project: https://waabi.ai/uno/
+url_project: https://waabi.ai/research/uno
 url_slides:
 url_source:
-url_video:
+url_video: https://www.youtube.com/watch?v=icV-BM4ewZI&feature=youtu.be
 # url_video: https://youtu.be/8LPrYcWZaRc
 
 # Featured image

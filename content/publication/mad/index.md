@@ -40,8 +40,8 @@ featured: true
 url_pdf: https://openaccess.thecvf.com/content/CVPR2025/papers/Agro_MAD_Memory-Augmented_Detection_of_3D_Objects_CVPR_2025_paper.pdf
 url_code:
 url_dataset:
-url_poster:
-url_project: 
+url_poster: https://www.datocms-assets.com/163962/1756441789-mad_poster.pdf
+url_project: https://waabi.ai/research/mad
 url_slides:
 url_source:
 url_video:

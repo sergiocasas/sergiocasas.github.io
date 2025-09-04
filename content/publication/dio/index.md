@@ -40,12 +40,11 @@ featured: true
 url_pdf: https://openaccess.thecvf.com/content/CVPR2025/papers/Diehl_DIO_Decomposable_Implicit_4D_Occupancy-Flow_World_Model_CVPR_2025_paper.pdf
 url_code:
 url_dataset:
-url_poster:
-url_project: 
+url_poster: https://research-assets.waabi.ai/DIO/poster.pdf
+url_project: https://waabi.ai/research/dio
 url_slides:
 url_source:
-url_video:
-# url_video: https://youtu.be/8LPrYcWZaRc
+url_video: https://research-assets.waabi.ai/DIO/video_final.mp4
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

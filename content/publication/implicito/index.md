@@ -41,10 +41,10 @@ url_pdf: https://arxiv.org/pdf/2308.01471
 url_code:
 url_dataset:
 url_poster:
-url_project: https://waabi.ai/implicito/
+url_project: https://waabi.ai/research/implicito/
 url_slides:
 url_source:
-url_video:
+url_video: https://static.ext.waabi.ai/ImplicitO-video.mp4
 # url_video: https://youtu.be/8LPrYcWZaRc
 
 # Featured image

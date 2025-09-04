@@ -41,10 +41,10 @@ url_pdf: https://arxiv.org/pdf/2406.04426
 url_code:
 url_dataset:
 url_poster:
-url_project: https://waabi.ai/detra/
+url_project: https://waabi.ai/research/detra
 url_slides:
 url_source:
-url_video:
+url_video: https://static.ext.waabi.ai/DeTra_supp_imovie_v2.mp4
 # url_video: https://youtu.be/8LPrYcWZaRc
 
 # Featured image
